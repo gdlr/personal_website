@@ -179,7 +179,7 @@ Author URL: https://themeforest.net/user/codesymbol/
                 background-position: center;
                 background-size: cover;
             }
-        
+
         /* Preloader */
             @-webkit-keyframes rotate
                 {
@@ -301,7 +301,7 @@ Author URL: https://themeforest.net/user/codesymbol/
                 width: auto;
                 max-width: 100%;
             }
-        
+
         /* reCAPTCHA */
             .grecaptcha-badge {
                 display: none!important;
@@ -469,7 +469,7 @@ Author URL: https://themeforest.net/user/codesymbol/
             max-height: 100px;
         }
         header .logo img {
-            max-height: 20px;
+            max-height: 60px;
             width: auto;
         }
         header.showNav .logo {
@@ -989,7 +989,7 @@ Author URL: https://themeforest.net/user/codesymbol/
         }
 
         .row.space .column {
-            margin: 0 4% 30px 0;
+            margin: 1% 1% 1% 1%;
         }
         .row.space .column.full {
             width: 100%;
@@ -1301,7 +1301,7 @@ Author URL: https://themeforest.net/user/codesymbol/
             margin: 0 10px;
         }
         .team-member .social-profiles li a {
-            
+
         }
         .team-member:hover::before,
         .team-member:hover .overlay,
@@ -1466,7 +1466,7 @@ Author URL: https://themeforest.net/user/codesymbol/
             height: 100%;
         }
         .portfolio.horizontal-slider article figcaption {
-            
+
         }
         .portfolio.horizontal-slider article .overlay {
             position: absolute;
@@ -1615,7 +1615,7 @@ Author URL: https://themeforest.net/user/codesymbol/
             height: auto;
         }
         .portfolio.grid article figcaption {
-            
+
         }
         .portfolio.grid article .overlay {
             position: absolute;
@@ -1711,7 +1711,7 @@ Author URL: https://themeforest.net/user/codesymbol/
                 .project .article-wrapper {
                     position: relative;
                 }
-                
+
             /* Cover */
                 .project .cover {
                     position: relative;
@@ -1745,7 +1745,7 @@ Author URL: https://themeforest.net/user/codesymbol/
 
                 }
                 .project .cover.image .image-container {
-                    
+
                 }
                 .project .cover.image .image-container img {
                     display: block;
@@ -1859,7 +1859,7 @@ Author URL: https://themeforest.net/user/codesymbol/
                 }
 
                 .project .recent-projects {
-                    
+
                 }
                 .project .recent-projects .wrapper::after {
                     display: block;
@@ -2001,7 +2001,7 @@ Author URL: https://themeforest.net/user/codesymbol/
                     font-size: 13px;
                 }
                 .project.style-1 .info .share {
-                    
+
                 }
                 .project.style-1 .info .share .label {
                     margin-bottom: 7px;
@@ -2024,7 +2024,7 @@ Author URL: https://themeforest.net/user/codesymbol/
                 .project.style-1 .info .share a:hover {
 
                 }
-            
+
             /* Images Section */
                 .project.style-1 .images {
                 }
@@ -2800,10 +2800,10 @@ Author URL: https://themeforest.net/user/codesymbol/
 
     /* Archive */
         .blog {
-            
+
         }
         .blog.has-sidebar {
-            
+
         }
         .blog.has-sidebar::after {
             content: "";
@@ -2811,7 +2811,7 @@ Author URL: https://themeforest.net/user/codesymbol/
             clear: both;
         }
         .blog .posts {
-            
+
         }
         .blog.has-sidebar .posts {
             width: 64%;
@@ -3039,10 +3039,10 @@ Author URL: https://themeforest.net/user/codesymbol/
                 margin-bottom: 30px;
             }
             .blog-single .cover.image {
-                
+
             }
             .blog-single .cover.image figure {
-                
+
             }
             .blog-single .cover.image img {
                 display: block;
@@ -3211,7 +3211,7 @@ Author URL: https://themeforest.net/user/codesymbol/
     /* Medium Screens (Tablet) */
     /* ----------------------- */
     @media only screen and (max-width : 1520px) {
-    
+
     }
     @media only screen and (max-width : 1440px) {
 
@@ -3247,7 +3247,7 @@ Author URL: https://themeforest.net/user/codesymbol/
                 .project .recent-projects .overlay {
                     width: 90%;
                 }
-    
+
     }
     @media only screen and (max-width : 1280px) {
 
@@ -3371,7 +3371,7 @@ Author URL: https://themeforest.net/user/codesymbol/
                 header > nav > ul > li.mega-menu > ul,
                 header > nav > ul > li.mega-menu.two-columns > ul,
                 header > nav > ul > li.mega-menu.three-columns > ul,
-                header > nav > ul > li.mega-menu.four-columns > ul {     
+                header > nav > ul > li.mega-menu.four-columns > ul {
                     display: none;
                     padding: 10px 0;
                     left: 0;
@@ -3436,8 +3436,8 @@ Author URL: https://themeforest.net/user/codesymbol/
                 .row.space .column.two-fifth,
                 .row.space .column.three-fourth,
                 .row.space .column.three-fifth {
-                    width: 48.1%;
-                    margin: 0 20px 20px 0;
+                    width: 48%;
+                    margin: 0 1% 1% 0;
                 }
                 .row.space .column.one-half:nth-child(2n),
                 .row.space .column.one-third:nth-child(2n),
@@ -3495,7 +3495,7 @@ Author URL: https://themeforest.net/user/codesymbol/
                 .gallery.horizontal-slider figure a::before {
                     display: none;
                 }
-            
+
             /* Portfolio - Singles */
                 .project .recent-projects.three-columns article,
                 .project .recent-projects.four-columns article {
@@ -3636,7 +3636,7 @@ Author URL: https://themeforest.net/user/codesymbol/
                 display: inline-block;
                 line-height: 50px;
             }
-        
+
         /* ----------------------   */
         /* Elements                 */
         /* ----------------------   */
@@ -3709,7 +3709,7 @@ Author URL: https://themeforest.net/user/codesymbol/
                 .portfolio.horizontal-slider article .overlay .categories {
                     font-size: 11px;
                 }
-    
+
             /* Portfolio - Singles */
 
                 /* Single 1 */
@@ -3759,7 +3759,7 @@ Author URL: https://themeforest.net/user/codesymbol/
                     .project .recent-projects.four-columns article {
                         width: 100%;
                     }
-            
+
             /* Gallery - Slideshow */
                 .gallery.slideshow {
                     height: calc(100vh - 100px);
