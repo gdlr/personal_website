@@ -2890,6 +2890,11 @@ Author URL: https://themeforest.net/user/codesymbol/
             opacity: 0;
         }
 
+        .blog-text{
+            width:60%;
+            margin: auto
+        }
+
     /* Sidebar */
         .blog.has-sidebar .sidebar {
             float: right;
