@@ -153,6 +153,10 @@ Author URL: https://themeforest.net/user/codesymbol/
         color: #000;
     }
 
+    h1 {
+        color:grey
+    }
+
     .contact-form input[type="submit"]:hover,
     .contact-form input[type="submit"] {
         color: #fff;
