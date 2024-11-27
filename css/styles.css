@@ -2844,6 +2844,7 @@ Author URL: https://themeforest.net/user/codesymbol/
             margin: 0 4% 50px 0;
             text-align: center;
         }
+
         .blog.has-sidebar .posts article {
             float: none;
             width: 100%;
@@ -2874,12 +2875,12 @@ Author URL: https://themeforest.net/user/codesymbol/
         }
         .blog .posts article h2 {
             font-size: 20px;
-            line-height: 32px;
+            line-height: 26px;
             margin-bottom: 5px;
         }
         .blog .posts article .categories {
             display: block;
-            margin-bottom: 30px;
+            margin-bottom: 16px;
             font-size: 13px;
         }
         .blog .posts article .excerpt {
@@ -2903,6 +2904,116 @@ Author URL: https://themeforest.net/user/codesymbol/
             width:60%;
             margin: auto
         }
+
+        /* posts-thin*/
+
+
+        .blog {
+
+        }
+        .blog.has-sidebar {
+
+        }
+        .blog.has-sidebar::after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+        .blog .posts-thin {
+
+        }
+        .blog.has-sidebar .posts {
+            width: 64%;
+            float: left;
+            margin: 0 8% 50px 0;
+        }
+        .blog .posts-thin::after {
+            display: block;
+            content: "";
+            clear: both;
+        }
+        .blog .posts-thin article {
+            float: left;
+            width: 30%;
+            margin: 0 3% 50px 0;
+            text-align: left;
+        }
+
+        .blog .posts-thin article::after{
+            clear:both;
+        }
+
+        .blog.has-sidebar .posts-thin article {
+            float: none;
+            width: 100%;
+            margin: 0 0 50px 0;
+        }
+
+        .blog .posts-thin article:nth-child(3n) {
+            float:left;
+            margin: 0 1% 50px 0;
+        }
+
+        .blog .posts-thin article:nth-child(3n+1){
+            clear:both ;
+        }
+
+        .blog .posts-thin article figure {
+            margin-bottom: 20px;
+        }
+        .blog .posts-thin article figure img {
+            display: block;
+        }
+        .blog .posts-thin article figure a {
+            position: relative;
+            display: block;
+        }
+        .blog .posts-thin article figure a::before {
+            position: absolute;
+            content: "";
+            display: block;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            opacity: 0;
+        }
+        .blog .posts-thin article h2 {
+            font-size: 24px;
+            line-height: 24px;
+            margin-bottom: 5px;
+            letter-spacing: 0;
+            text-transform: none;
+        }
+        .blog .posts-thin article .categories {
+            display: block;
+            margin-bottom: 20px;
+            font-size: 11px;
+            text-align: right;
+        }
+        .blog .posts-thin article .excerpt {
+            margin-bottom: 25px;
+        }
+        .blog .posts-thin article .read-more {
+            letter-spacing: 2px;
+            margin-bottom: 0px;
+            text-transform: uppercase;
+            font-size: 11px;
+            text-align: center;
+        }
+
+        .blog .posts-thin:hover article figure a::before {
+            opacity: 0.75;
+        }
+        .blog .posts-thin article:hover figure a::before {
+            opacity: 0;
+        }
+
+        .blog-text{
+            width:60%;
+            margin: auto
+        }
+
 
     /* Sidebar */
         .blog.has-sidebar .sidebar {
@@ -3802,6 +3913,21 @@ Author URL: https://themeforest.net/user/codesymbol/
                 .portfolio.grid article .overlay .categories {
                     font-size: 11px;
                 }
+
+        /* ----------------------*/
+        /* Samples               */
+        /* ----------------------*/
+
+        .samples{
+        }
+        .samples .row .space{
+            margin-bottom:1%
+        }
+
+        .samples .column{
+            width:5vw
+        }
+
 
         /* ----------------------*/
         /* Pages                 */
