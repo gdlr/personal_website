@@ -3970,4 +3970,20 @@ Author URL: https://themeforest.net/user/codesymbol/
                 margin: 0 0 50px 0;
             }
 
+            .blog.has-sidebar .posts-thin,
+            .blog-single .article-wrapper {
+                width: 100%;
+                float: none;
+                margin: 0 0 100px 0;
+            }
+            .blog.has-sidebar .sidebar {
+                float: none;
+                width: 100%;
+                margin-bottom: 20px;
+            }
+            .blog .posts-thin article {
+                width: 100%;
+                margin: 0 0 50px 0;
+            }
+
     }
